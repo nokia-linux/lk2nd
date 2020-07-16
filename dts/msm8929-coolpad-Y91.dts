@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+/include/ "msm8916.dtsi"
+
+/ {
+	qcom,msm-id = <0x10c 0x0 0x10d 0x0 0x10e 0x0 0x10f 0x0>;
+	qcom,board-id = <0x8 0x0>;
+
+	model = "Qualcomm Technologies, Inc. MSM8929 MTP";
+	compatible = "qcom,msm8929-mtp", "qcom,msm8929", "qcom,mtp", "lk2nd,device";
+
+	lk2nd,uart = <1>;
+};
