@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+/include/ "msm8916.dtsi"
+
+/ {
+	qcom,msm-id = <0xce 0x0 0xf8 0x0 0xf9 0x0 0xfa 0x0>;
+	qcom,board-id = <0x80 0xf0>;
+
+	model = "Qualcomm MSM 8916 Libra LTE ROW B1";
+	compatible = "qcom,msm8916-mtp", "qcom,msm8916", "qcom,mtp", "lk2nd,device";
+
+	lk2nd,uart = <1>;
+};

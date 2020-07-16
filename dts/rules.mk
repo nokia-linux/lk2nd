@@ -2,6 +2,9 @@ LOCAL_DIR := $(GET_LOCAL_DIR)
 
 ifeq ($(PROJECT), msm8916-secondary)
 DTBS += \
+	$(LOCAL_DIR)/msm8916-nokia-libra-lte-row-b1.dtb \
+	$(LOCAL_DIR)/msm8916-nokia-libra-lte-row-s01.dtb \
+	$(LOCAL_DIR)/msm8916-nokia-libra-lte-td.dtb \
 	$(LOCAL_DIR)/apq8016-samsung-r02.dtb \
 	$(LOCAL_DIR)/apq8016-samsung-r07.dtb \
 	$(LOCAL_DIR)/msm8216-samsung-r05.dtb \
